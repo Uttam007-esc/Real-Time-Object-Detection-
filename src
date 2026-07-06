@@ -1,0 +1,29 @@
+# Source Code
+
+This directory contains the core implementation of the **Real-Time Object Detection** system.
+
+## Files
+
+### `realtime_detection.py`
+- Detects objects from a live webcam feed.
+- Uses the YOLOv3 deep learning model with OpenCV.
+- Displays detected objects with bounding boxes, class labels, confidence scores, and object counts.
+- Provides an interactive Tkinter-based graphical user interface.
+
+### `image_detection.py`
+- Detects objects in static images.
+- Loads an input image, performs inference using YOLOv3, and displays the detection results with labels and confidence scores.
+
+## Technologies Used
+
+- Python
+- OpenCV
+- YOLOv3
+- NumPy
+- Pillow
+- Tkinter
+- Matplotlib
+
+## Purpose
+
+The source code is organized separately to improve project structure, readability, and maintainability.
